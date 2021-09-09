@@ -1,0 +1,109 @@
+*{
+    font-family:  'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+p,a,input[type='button']{
+    color: #3C3C3C
+}
+
+input[type='button']{
+    background-color: #8EE5D1;
+    border-radius: 25px;
+    font-size: 24px;
+    padding: 5px
+}
+
+#logo{
+    color: black;
+    font-size: 28px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    
+}
+
+.header ul li{
+    font-size: 16px;
+    display: inline;
+    font-weight: bold;
+} 
+
+.header ul a{
+    padding-right: 2em;
+    text-decoration: none;
+    color: #3C3C3C;
+
+} 
+
+.container{
+    padding: 20px ;
+    margin: 0 5em 0;
+}
+
+.container flex-start{
+    padding: 20px ;
+    margin: 10px 70px ;
+
+}
+
+.container flex-end{
+    padding-right: 20px ;
+    flex-direction: row-reverse;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-left: 20px;
+  }
+
+  .main-content h1{
+      font-size: 48px;
+      padding: 0 40px
+  }
+
+  .main-content p{
+    font-size: 24px;
+    font-weight: 300;
+    padding:0 40px
+}
+
+.main-content input{
+    padding:10px 40px;
+    
+}
+#started{
+    padding:0 40px;
+}
+img {
+    float: right;
+    padding-right: 15px;
+    width: 40%;
+  }
+.grey{
+    background-color: #F4F7FA;
+}
+.section-2{
+    padding: 50px 300px;
+
+}
+
+.section-2 input[type='email']{
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.section-2 input[type='button']{
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    font-size: 16px;
+    font-weight: 600;
+}
